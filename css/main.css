@@ -8,10 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-}
-
 body {
   margin: 0;
 }
@@ -35,4 +31,19 @@ p {
   text-align: center;
   margin: 0 0 1.5rem;
   font-size: 1.4rem;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+ol > li {
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+  padding: 1rem;
 }
