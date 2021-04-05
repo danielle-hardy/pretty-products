@@ -85,3 +85,12 @@ ul li:first-child {
 ul a img {
   margin-right: .25em;
 }
+
+.btn {
+  background-color: #6f00e7;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1.5em .7em;
+  border-radius: 3em;
+  font-weight: bold;
+}
